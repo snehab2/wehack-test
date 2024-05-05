@@ -1,4 +1,4 @@
-import Jumbotron from "./sections/Jumbotron";
+import Jumbotron from "./sections/Jumbotron/Jumbotron";
 
 export default function Home() {
   return (
