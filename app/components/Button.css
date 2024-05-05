@@ -1,0 +1,10 @@
+.primary-btn {
+    border-radius:10px;
+    border: 3px solid #202335;
+    box-shadow: 6px 6px 0px #202335;
+}
+
+.primary-btn:hover {
+    box-shadow: 10px 10px 0px #202335;
+    transition: 0.2s ease-in;
+  }
