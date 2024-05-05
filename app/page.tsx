@@ -1,8 +1,12 @@
-import Jumbotron from "./sections/Jumbotron/Jumbotron";
+import Jumbotron from "./sections/JumbotronPage/Jumbotron";
+import About from "./sections/AboutPage/About";
 
 export default function Home() {
   return (
     // this is where all our components will go
-    <Jumbotron/>
+    <div className="App">
+      <Jumbotron/>
+      <About/>
+    </div>
   );
 }

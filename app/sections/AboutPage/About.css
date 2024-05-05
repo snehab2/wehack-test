@@ -1,0 +1,7 @@
+.parent-container {
+    flex-grow:1;
+}
+.textCol {
+    flex:1;
+    overflow:hidden;
+}
