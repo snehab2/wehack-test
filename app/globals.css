@@ -5,3 +5,26 @@
 body {
     margin: 0;
 }
+
+.parent-container {
+    background-image:url("/images/UIUXWorkshop_Banner.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+    /* width and height */
+    width: 100vw;
+    height: auto;
+    
+
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* spacing */
+    /* padding: top, right, bottom, left */
+    padding: 5rem 2.5rem 15rem 2.5rem
+}
