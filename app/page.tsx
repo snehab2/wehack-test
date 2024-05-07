@@ -6,7 +6,7 @@ export default function Home() {
     // this is where all our components will go
     <div className="App">
       <Jumbotron/>
-      {/* <About/> */}
+      <About/>
     </div>
   );
 }

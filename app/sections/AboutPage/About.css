@@ -1,7 +1,34 @@
-.parent-container {
-    flex-grow:1;
+.about-group {
+    gap: 2rem;
 }
-.textCol {
-    flex:1;
-    overflow:hidden;
+
+/* === media queries === */
+
+/* small */
+@media (min-width: 580px) {
+    .about-group {
+        gap: 0rem;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) {
+    .paragraph {
+        /* padding: top, right, bottom, left */
+        padding: 0rem 4rem 0rem 4rem;
+    }
+    .about-group {
+        gap: 0rem;
+    }
+}
+
+/* large */
+@media (min-width: 1024px) {
+    .paragraph {
+        /* padding: top, right, bottom, left */
+        padding: 0rem 6rem 0rem 6rem;
+    }
+    .about-group {
+        gap: 0rem;
+    }
 }

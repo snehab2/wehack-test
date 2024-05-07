@@ -6,17 +6,11 @@ body {
     margin: 0;
 }
 
-.parent-container {
-    background-image:url("/images/UIUXWorkshop_Banner.png");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    
+.parent-container {    
     /* width and height */
     width: 100vw;
     height: auto;
     
-
     /* flex */
     display: flex;
     flex-wrap: wrap;
@@ -28,3 +22,61 @@ body {
     /* padding: top, right, bottom, left */
     padding: 5rem 2.5rem 15rem 2.5rem
 }
+
+.child-container {
+    /* width and height */
+    width: 100%;
+    height: auto;
+
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /* spacing */
+    /* margin: top, right, bottom, left */
+    margin: 1rem 0rem 0rem 0rem
+}
+
+/* === media queries === */
+
+/* small */
+@media (min-width: 580px) {
+    .parent-container {
+        flex-direction: row; 
+    }
+    .child-container {
+        width:50%;
+        flex-direction: column;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) {
+    .parent-container {
+        flex-direction: row; /* changed here */
+    }
+    .child-container {
+        width:50%;
+        flex-direction: column;
+    }
+}
+
+/* large */
+@media (min-width: 1024px) {
+    .parent-container {
+        flex-direction: row; /* changed here */
+        /* padding: top, right, bottom, left */
+        padding: 10rem 2.5rem 15rem 2.5rem;
+    }
+    .child-container {
+        width:50%;
+        flex-direction: column;
+    }
+    .jumbo-group {
+        margin-right:3rem;
+    }
+}
+
