@@ -65,10 +65,12 @@
         /* margin: top, right, bottom left*/
         margin: 2rem 0rem 0rem 0rem;
     }
-
     .jumbo-group {
         /* margin: top, right, bottom left*/
         margin: 0rem 3rem 0rem 0rem;
+    }
+    .jumbotron {
+        gap:6rem;
     }
 }
 
