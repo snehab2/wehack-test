@@ -3,7 +3,8 @@ import './About.css'
 
 function About() {
   return (
-    <section className='about-group parent-container bg-[#1A441B]'>
+    <section className='parent-container bg-[#755642]'>
+      <div className='about-group flex flex-wrap flex-column sm:flex-row md:flex-row: lg:flex-row'>
         <div className='child-container'>
             <div className='paragraph flex flex-wrap flex-column gap-y-5'>
                 <h1 className='about-text text-[#FFE9D7] font-medium text-4xl text-left'>Dallas' Largest Inclusive Hackathon</h1>
@@ -11,8 +12,9 @@ function About() {
             </div>
         </div>
         <div className='child-container'>
-            <img className="h-auto max-w-60 sm:max-w-72 md:max-w-72 lg:max-w-lg" src="./images/LogoSparkle.png" alt="wehack logo"></img>
+            <img className="h-auto max-w-60 sm:max-w-72 md:max-w-96 lg:max-w-lg" src="./images/LogoSparkle.png" alt="wehack logo"></img>
         </div>
+      </div>
     </section>
   )
 }

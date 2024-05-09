@@ -1,6 +1,6 @@
 .about-group {
     gap: 2rem;
-    padding-top:10rem;
+    margin-top:-2rem;
 }
 
 /* === media queries === */
@@ -9,6 +9,7 @@
 @media (min-width: 580px) {
     .about-group {
         gap: 0rem;
+        margin-top:-3rem;
     }
 }
 
@@ -20,6 +21,7 @@
     }
     .about-group {
         gap: 0rem;
+        margin-top:-6rem;
     }
 }
 
@@ -31,5 +33,6 @@
     }
     .about-group {
         gap: 0rem;
+        margin-top:-10rem;
     }
 }

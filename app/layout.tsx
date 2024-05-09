@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
+import { Inknut_Antiqua, Nunito } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const nunito = Nunito({ 
+  variable: '--font-nunito',
+  subsets: ["latin"]
+});
+const inknut = Inknut_Antiqua({
+  weight:'400',
+  subsets: ['devanagari'],
+  variable: '--font-inknut-antiqua'
+});
 
 export const metadata: Metadata = {
   title: "WEHack Mock",
@@ -16,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${nunito.variable} ${inknut.variable}`}>{children}</body>
     </html>
   );
 }

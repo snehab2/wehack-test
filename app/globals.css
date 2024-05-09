@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* === containers === */
 body {
     margin: 0;
 }
@@ -20,7 +21,7 @@ body {
 
     /* spacing */
     /* padding: top, right, bottom, left */
-    padding: 5rem 2.5rem 15rem 2.5rem
+    padding: 5rem 2.5rem 10rem 2.5rem
 }
 
 .child-container {
@@ -38,6 +39,17 @@ body {
     /* spacing */
     /* margin: top, right, bottom, left */
     margin: 1rem 0rem 0rem 0rem
+}
+
+/* === fonts === */
+/* shoutout to anastasiia fr: 
+https://medium.com/@a.pirus/simplifying-multiple-fonts-styling-in-next-js-13-with-css-variables-cb57e9707693 */
+
+h1, h2, h3 {
+    font-family:var(--font-inknut-antiqua);
+}
+p {
+    font-family:var(--font-nunito);
 }
 
 /* === media queries === */
