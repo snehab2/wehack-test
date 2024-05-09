@@ -1,4 +1,4 @@
-nav{
+nav {
     position:fixed;
     display: flex;
     flex-wrap:wrap;
@@ -16,6 +16,7 @@ nav .collapse-menu {
     background-color:#755642;
 }
 
+/* style li in navbar */
 nav .collapse-menu li {
     display:flex;
     align-items: center;
@@ -24,7 +25,7 @@ nav .collapse-menu li {
     z-index: 1;
     color:#FFE9D7;
 }
-
+ /* style link in navbar */
 nav .collapse-menu li a {
     display:flex;
     align-items: center;
@@ -68,11 +69,5 @@ input[type=checkbox]:checked~.collapse-menu {
     cursor: pointer;
     filter: drop-shadow(0rem 0rem 0.6rem white);
     transition:0.3s ease-in-out;
-}
-
-nav ul {
-    display:block;
-    width:100%;
-    z-index: 1;
 }
 
