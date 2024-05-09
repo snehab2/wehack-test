@@ -3,6 +3,10 @@
     margin-top:-2rem;
 }
 
+.about-title {
+    text-shadow:0rem 0rem 1.5rem #FFE9D7;
+}
+
 /* === media queries === */
 
 /* small */
