@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav> 
         <div className="nav-header">      
-            <img className="wehack-logo h-auto max-w-12" src="./images/LogoSparkle.png" alt="wehack logo"></img>
+            <img className="wehack-logo h-auto max-w-12 lg:max-w-20" src="./images/LogoSparkle.png" alt="wehack logo"></img>
         </div>
 
         <input type="checkbox" id="checkbox_toggle" />

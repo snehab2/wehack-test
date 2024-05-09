@@ -71,3 +71,29 @@ input[type=checkbox]:checked~.collapse-menu {
     transition:0.3s ease-in-out;
 }
 
+/* large */
+@media (min-width: 1024px) {
+    nav {
+        display: flex;
+    justify-content: space-between;
+    }
+    .hamburger {
+        display:none;
+    }
+    nav .collapse-menu {
+        display:flex;
+        background-color: transparent;
+        margin:0rem 0rem 0rem 2rem;
+    }
+    nav .collapse-menu li {
+        display:inline-flex;
+    }
+    nav .collapse-menu li a {
+        width:100%;
+    }
+    nav .collapse-menu li a:hover {
+        background-color: transparent;
+        text-shadow: 0rem 0rem 1rem white;
+        transition: 0.3s ease-in-out;
+    }
+}
