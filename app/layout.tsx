@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inknut_Antiqua, Nunito } from "next/font/google";
 import "./globals.css";
 
+
 const nunito = Nunito({ 
   variable: '--font-nunito',
   subsets: ["latin"]

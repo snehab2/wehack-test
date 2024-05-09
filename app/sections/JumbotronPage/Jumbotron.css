@@ -26,6 +26,10 @@
     gap:1.3rem;
 }
 
+.jumbo-title {
+    text-shadow:0rem 0rem 5rem #FFE9D7;
+}
+
 
 /* === media queries === */
 
