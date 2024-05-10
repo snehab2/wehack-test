@@ -76,7 +76,12 @@ input[type=checkbox]:checked~.collapse-menu {
 @media (min-width: 1024px) {
     nav {
         display: flex;
-    justify-content: space-between;
+        justify-content: space-between;
+        backdrop-filter: blur(1rem);
+        width:100%;
+    }
+    .wehack-logo {
+        margin-bottom:0.5rem;
     }
     .hamburger {
         display:none;
