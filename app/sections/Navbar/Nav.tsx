@@ -1,11 +1,12 @@
 import React from 'react'
 import './Nav.css'
+import Head from 'next/head'
  
 function Nav() {
   return (
     <nav> 
         <div className="nav-header">      
-            <img className="wehack-logo h-auto max-w-12 lg:max-w-20" src="./images/LogoSparkle.png" alt="wehack logo"></img>
+            <img className="wehack-logo h-auto max-w-12 lg:max-w-20" src="./2024 images/LogoSparkle.png" alt="wehack logo"></img>
         </div>
 
         <input type="checkbox" id="checkbox_toggle" />
@@ -19,7 +20,12 @@ function Nav() {
             <li><a href="#meettheteam">Team</a></li>
             <li><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a></li>
         </ul>
-        
+
+        {/* MLH 2024 BADGE */}
+        <a className="mlh-trust-badge" 
+      href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white" 
+      target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg" 
+      alt="Major League Hacking 2024 Hackathon Season"/></a>
   </nav>
   )
 }

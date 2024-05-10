@@ -12,7 +12,7 @@ function About() {
             </div>
         </div>
         <div className='child-container'>
-            <img className="h-auto max-w-60 sm:max-w-72 md:max-w-96 lg:max-w-lg" src="./images/LogoSparkle.png" alt="wehack logo"></img>
+            <img className="h-auto max-w-60 sm:max-w-72 md:max-w-96 lg:max-w-lg" src="./2024 images/LogoSparkle.png" alt="wehack logo"></img>
         </div>
       </div>
     </section>

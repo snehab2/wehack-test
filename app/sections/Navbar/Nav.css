@@ -22,7 +22,7 @@ nav .collapse-menu li {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    z-index: 1;
+    z-index: 10000;
     color:#FFE9D7;
 }
  /* style link in navbar */
@@ -65,11 +65,44 @@ input[type=checkbox]:checked~.collapse-menu {
     right:0;
     color:#FFE9D7;
     padding:0.5rem 2rem 0rem 0rem;
+    margin:0rem 3rem 0rem 0rem;
 }
 .hamburger:hover {
     cursor: pointer;
     filter: drop-shadow(0rem 0rem 0.6rem white);
     transition:0.3s ease-in-out;
+}
+
+.mlh-trust-badge {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 10vw;
+    z-index: 1;
+    margin:0rem 1rem 0rem 0rem;
+}
+
+/* small */
+@media (min-width: 580px) {
+    .hamburger {
+        margin:0rem 4rem 0rem 0rem;
+    }
+}
+
+/* medium */
+/* ONLY EXCEPTION FOR DIFFERENT MIN-WIDTH */
+@media (min-width: 750px) {
+    .hamburger {
+        margin:0rem 5rem 0rem 0rem;
+    }
+}
+
+/* ONLY EXCEPTION FOR DIFFERENT MIN-WIDTH */
+@media (min-width: 900px) {
+    .hamburger {
+        margin:0rem 6rem 0rem 0rem;
+    }
 }
 
 /* large */
@@ -86,10 +119,14 @@ input[type=checkbox]:checked~.collapse-menu {
     .hamburger {
         display:none;
     }
+    .mlh-trust-badge {
+        width:7vw;
+        margin:0rem 2rem 0rem 0rem;
+    }
     nav .collapse-menu {
         display:flex;
         background-color: transparent;
-        margin:0rem 0rem 0rem 2rem;
+        margin:0rem 8rem 0rem 2rem;
     }
     nav .collapse-menu li {
         display:inline-flex;
