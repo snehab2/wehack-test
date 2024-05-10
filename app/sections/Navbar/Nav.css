@@ -53,6 +53,7 @@ input[type=checkbox]:checked~.collapse-menu {
     top:0;
     right:0;
     padding:3rem 0rem 2rem 0rem;
+    width:100%;
 }
 
 .hamburger {
