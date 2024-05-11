@@ -22,11 +22,11 @@ function Jumbotron() {
         <div className='jumboText-container child-container'>
             <div className='jumbo-group'>
                 <h3 className='jumbo-text text-[#FFE9D7] text-lg italic lg:text-lg'>WEHack Presents</h3>
-                <h1 className='jumbo-title text-[#FFE9D7] text-4xl md:text-5xl lg:text-5xl animate-pulse'>Enchanted to be Here</h1>
-                <h2 className='jumbo-text text-[#FFE9D7] text-2xl sm:text-2xl md:2xl lg:text-3xl'>March 23 - 24</h2>
+                <h1 className='jumbo-title text-[#FFE9D7] text-4xl md:text-5xl lg:text-5xl animate-pulse'>WEHack 2025: Coming Soon</h1>
+                <h2 className='jumbo-text text-[#FFE9D7] text-2xl sm:text-2xl md:2xl lg:text-3xl'>July 2025</h2>
                 <div className='jumbo-buttons'>
-                  <Button link={'https://coda.io/@wehack-utd/wehack-2024-registration-form'} buttonText={'Registration'}/>
-                  <Button link={'https://live.wehackutd.com/'} buttonText={'WEHack Portal'}/>
+                  <Button link={'https://coda.io/@wehack-utd/wehack-2024-registration-form'} buttonText={'Sign up for Notifications'}/>
+                  {/* <Button link={'https://live.wehackutd.com/'} buttonText={'WEHack Portal'}/> */}
                 </div>
             </div>
         </div>

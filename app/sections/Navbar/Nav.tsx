@@ -1,7 +1,10 @@
+"use client"
 import React from 'react'
 import './Nav.css'
+import { useState } from 'react'
  
 function Nav() {
+
   return (
     <nav> 
         <div className="nav-header">      
