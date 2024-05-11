@@ -38,7 +38,7 @@ body {
 
     /* spacing */
     /* margin: top, right, bottom, left */
-    margin: 1rem 0rem 0rem 0rem
+    margin: 1rem 0rem 0rem 0rem;
 }
 
 /* === fonts === */
@@ -56,13 +56,13 @@ p {
 
 /* small */
 @media (min-width: 580px) {
-    .parent-container {
+    /* .parent-container {
         flex-direction: row; 
     }
     .child-container {
         width:50%;
         flex-direction: column;
-    }
+    } */
 }
 
 /* medium */
@@ -86,9 +86,6 @@ p {
     .child-container {
         width:50%;
         flex-direction: column;
-    }
-    .jumbo-group {
-        margin-right:3rem;
     }
 }
 
