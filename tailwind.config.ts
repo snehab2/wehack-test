@@ -21,8 +21,8 @@ const config: Config = {
       },
       keyframes: {
         expand: {
-          '0%, 100%': { dropShadow: '0rem 0rem 2rem #ffe9d7ad' },
-          '50%': { dropShadow: '0rem 0rem 6rem #ffe9d7ad'},
+          '0%, 100%': { filter: 'drop-shadow(0rem 0rem 2rem #ffe9d7ad)' },
+          '50%': { filter: 'drop-shadow(0rem 0rem 3rem #ffe9d7ad)'},
         }
       },
     },

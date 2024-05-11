@@ -4,7 +4,7 @@ function Stats() {
   return (
     // stats-container flex flex-wrap flex-col gap-y-20 justify-between sm:flex-row md:flex-row: lg:flex-row pt-40 sm:pt-40 md:pt-48 lg:pt-72
 
-        <div className='stats-container flex flex-col gap-y-20 lg:flex-row pt-40 sm:pt-40 md:pt-40 lg:pt-28 lg:space-x-12'>
+        <div className='stats-container flex flex-col gap-y-20 lg:flex-row pt-40 sm:pt-40 md:pt-40 lg:pt-28 lg:space-x-24'>
             <div className='statsOne flex flex-wrap flex-col align-center justify-between gap-y-3'>
                 <img className="wehack-mascot h-auto max-w-60 sm:max-w-64 md:max-w-72 lg:max-w-72" src="./2024 images/IMG_0843(2).png" alt="wehack mascot"></img>
                 <div className='stats-text flex flex-col gap-y-3'>
