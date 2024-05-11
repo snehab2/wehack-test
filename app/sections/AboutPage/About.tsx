@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
   return (
-    <section className='parent-container about-section bg-[#755642]'>
+    <section className='parent-container about-section bg-[#755642]' id="about-wehack">
       {/* group 1 */}
       <div className='about-group flex flex-wrap flex-column sm:flex-row md:flex-row: lg:flex-row'>
         <div className='child-container'>

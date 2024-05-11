@@ -1,6 +1,5 @@
 import React from 'react'
 import './Nav.css'
-import Head from 'next/head'
  
 function Nav() {
   return (
@@ -13,12 +12,8 @@ function Nav() {
         <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
 
         <ul className="collapse-menu">
-            <li><a href="#wehack">About</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#meettheteam">Team</a></li>
-            <li><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a></li>
+          <li><a href="#about-wehack">About</a></li>
+          <li><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a></li>
         </ul>
 
         {/* MLH 2024 BADGE */}
