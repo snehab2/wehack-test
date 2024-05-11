@@ -2,147 +2,203 @@ nav {
     position:fixed;
     display: flex;
     flex-wrap:wrap;
-    align-items:end;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
     padding: 1.5rem 2rem 1rem 2rem;
     z-index:2;
     background-color:transparent;
+    backdrop-filter: blur(1rem);
     top:0;
+    width:100%;
 }
 
 nav .collapse-menu {
-    display: none;
+    display: flex;
     z-index: 1;
+    margin:0rem 5rem 0rem 0rem;
     /* background-color:#755642; */
-    background-color:transparent;
-    backdrop-filter: blur(1rem);
 }
 
-/* style li in navbar */
+/* style li components in navbar */
 nav .collapse-menu li {
     display:flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     padding: 1rem;
     z-index: 10000;
     color:#FFE9D7;
 }
  /* style link in navbar */
 nav .collapse-menu li a {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height:100%;
-    width:50%;
-    left:0;
-    right:0;
     padding:0.5rem;
+    display:block;
 }
 nav .collapse-menu li a:hover {
     /* background-color:#4A3628;
     border-radius:1rem; */
     cursor: pointer;
-    border: 0.1rem solid #FFE9D7;
-    border-radius:1rem;
-    transition:0.3s ease-in-out;
+    text-shadow: 0rem 0rem 1rem white;
+    transition: 0.3s ease-in-out;
 }
-
 input[type=checkbox] {
-    display:none;
+    display: none;
 }
-
-input[type=checkbox]:checked~.collapse-menu {
-    display: block;
-    z-index: 1; 
-    position:inherit;
-    top:0;
-    right:0;
-    padding:3rem 0rem 2rem 0rem;
-    width:100%;
-}
-
 .hamburger {
-    display: block;
-    position:fixed;
-    font-size:2rem;
-    z-index:2;
-    top:0;
-    right:0;
-    color:#FFE9D7;
-    padding:0.5rem 2rem 0rem 0rem;
-    margin:0rem 3rem 0rem 0rem;
+    display:none;
+    user-select: none;
 }
-.hamburger:hover {
-    cursor: pointer;
-    filter: drop-shadow(0rem 0rem 0.6rem white);
-    transition:0.3s ease-in-out;
-}
-
 .mlh-trust-badge {
     display: block;
     position: fixed;
     right: 0;
     top: 0;
-    width: 10vw;
+    width: 6vw;
     z-index: 1;
     margin:0rem 1rem 0rem 0rem;
 }
 
-/* small */
-@media (min-width: 580px) {
-    .hamburger {
-        margin:0rem 4rem 0rem 0rem;
-    }
-}
-
-/* medium */
-/* ONLY EXCEPTION FOR DIFFERENT MIN-WIDTH */
-@media (min-width: 750px) {
-    .hamburger {
-        margin:0rem 5rem 0rem 0rem;
-    }
-}
-
-/* ONLY EXCEPTION FOR DIFFERENT MIN-WIDTH */
-@media (min-width: 900px) {
-    .hamburger {
-        margin:0rem 6rem 0rem 0rem;
-    }
-}
-
-/* large */
-@media (min-width: 1024px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        backdrop-filter: blur(1rem);
-        width:100%;
-    }
-    .wehack-logo {
-        margin-bottom:0.5rem;
-    }
-    .hamburger {
-        display:none;
-    }
+/* === media queries === */
+@media (max-width: 930) {
     .mlh-trust-badge {
-        width:7vw;
-        margin:0rem 2rem 0rem 0rem;
+        width: 11vw;
+    }
+}
+
+/* desktop */
+@media (max-width: 910px) {
+    .mlh-trust-badge {
+        width: 11vw;
     }
     nav .collapse-menu {
-        display:flex;
-        background-color: transparent;
-        margin:0rem 8rem 0rem 2rem;
-        backdrop-filter: none;
+        display: none;
+        z-index:2;
     }
-    nav .collapse-menu li {
-        display:inline-flex;
-    }
-    nav .collapse-menu li a {
+
+    input[type=checkbox]:checked~.collapse-menu {
+        display: block;
+        z-index: 1; 
+        top:0;
+        right:0;
+        padding:3rem 0rem 2rem 0rem;
         width:100%;
     }
-    nav .collapse-menu li a:hover {
-        background-color: transparent;
-        text-shadow: 0rem 0rem 1rem white;
-        transition: 0.3s ease-in-out;
+    .hamburger {
+        display: block;
+        font-size:2rem;
+        z-index:2;
+        top:0;
+        right:0;
+        color:#FFE9D7;
+        /* padding:0.5rem 2rem 0rem 0rem; */
+        margin:0rem 7rem 1rem 0rem;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+        filter: drop-shadow(0rem 0rem 0.6rem white);
+        transition:0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 900px) {
+    .mlh-trust-badge {
+        width: 11vw;
+    }
+    nav .collapse-menu {
+        display: none;
+        z-index:2;
+    }
+
+    input[type=checkbox]:checked~.collapse-menu {
+        display: block;
+        z-index: 1; 
+        top:0;
+        right:0;
+        padding:3rem 0rem 2rem 0rem;
+        width:100%;
+    }
+    .hamburger {
+        display: block;
+        font-size:2rem;
+        z-index:2;
+        top:0;
+        right:0;
+        color:#FFE9D7;
+        /* padding:0.5rem 2rem 0rem 0rem; */
+        margin:0rem 7rem 1rem 0rem;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+        filter: drop-shadow(0rem 0rem 0.6rem white);
+        transition:0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 750px) {
+    .mlh-trust-badge {
+        width: 16vw;
+    }
+    nav .collapse-menu {
+        display: none;
+        z-index:2;
+    }
+
+    input[type=checkbox]:checked~.collapse-menu {
+        display: block;
+        z-index: 1; 
+        top:0;
+        right:0;
+        padding:3rem 0rem 2rem 0rem;
+        width:100%;
+    }
+    .hamburger {
+        display: block;
+        font-size:2rem;
+        z-index:2;
+        top:0;
+        right:0;
+        color:#FFE9D7;
+        /* padding:0.5rem 2rem 0rem 0rem; */
+        margin:0rem 7rem 1rem 0rem;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+        filter: drop-shadow(0rem 0rem 0.6rem white);
+        transition:0.3s ease-in-out;
+    }
+}
+
+
+
+@media (max-width: 580px) {
+    .mlh-trust-badge {
+        width:15vw;
+    }
+    nav .collapse-menu {
+        display: none;
+        z-index:2;
+    }
+
+    input[type=checkbox]:checked~.collapse-menu {
+        display: block;
+        z-index: 1; 
+        top:0;
+        right:0;
+        padding:3rem 0rem 2rem 0rem;
+        width:100%;
+    }
+    .hamburger {
+        display: block;
+        font-size:2rem;
+        z-index:2;
+        top:0;
+        right:0;
+        color:#FFE9D7;
+        /* padding:0.5rem 2rem 0rem 0rem; */
+        margin:0rem 5rem 1rem 0rem;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+        filter: drop-shadow(0rem 0rem 0.6rem white);
+        transition:0.3s ease-in-out;
     }
 }
