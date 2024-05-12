@@ -1,5 +1,5 @@
-import Jumbotron from "./sections/JumbotronPage/Jumbotron";
-import About from "./sections/AboutPage/About";
+import Jumbotron from "./sections/Jumbotron/Jumbotron";
+import About from "./sections/About/About";
 import Nav from "./sections/Navbar/Nav";
 import Footer from "./sections/Footer/Footer";
 export default function Home() {
