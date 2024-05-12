@@ -15,9 +15,9 @@ function Nav() {
         <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
 
         <ul className="collapse-menu">
-          <li><a href="#about-wehack">About</a></li>
-          <li><a href="#FAQ">FAQ</a></li>
-          <li><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a></li>
+          <li><a className='text-lg lg:text-base' href="#about-wehack">About</a></li>
+          <li><a className='text-lg lg:text-base' href="#FAQ">FAQ</a></li>
+          <li><a className='text-lg lg:text-base' href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a></li>
         </ul>
 
         {/* MLH 2024 BADGE */}
