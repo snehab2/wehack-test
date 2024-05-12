@@ -1,0 +1,23 @@
+.footer-container {
+    background-image:url("/2024 images/background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.navigation-container, .contact-us-container {
+    border:1px solid black;
+}
+
+a {
+    color:#FFE9D7;
+    font-size:1.5rem;
+}
+
+a:hover {
+    /* background-color:#4A3628;
+    border-radius:1rem; */
+    cursor: pointer;
+    text-shadow: 0rem 0rem 1rem white;
+    transition: 0.3s ease-in-out;
+}

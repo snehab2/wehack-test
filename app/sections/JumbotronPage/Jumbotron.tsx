@@ -15,7 +15,7 @@ function Jumbotron() {
     // general formatting for className
     // element name, width (breakpoints), height (breakpoints), flex, flex-wrap, flex-direction (breakpoints), items-center, justify-content, gap, margin, padding
 
-    <section className='jumbotron parent-container'>
+    <section className='jumbotron parent-container' id="home">
         <div className='jumboImg-container child-container'>
             <img className="wehack-logo h-auto max-w-60 sm:max-w-64 md:max-w-72 lg:max-w-72" src="./2024 images/IMG_0844(1).png" alt="wehack logo"></img>
         </div>
