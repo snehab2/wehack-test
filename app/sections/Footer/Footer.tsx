@@ -9,14 +9,11 @@ function Footer() {
             <img className="wehack-logo h-auto max-w-60 sm:max-w-64 md:max-w-72 lg:max-w-72" src="./2024 images/LogoSparkle.png" alt="wehack logo"></img>
             <p className='about-text text-[#FFE9D7] font-medium text-xl lg:text-xl text-center'>Made with 💪🤍 by WEHack 2025</p>
         </div>
-        <div className='navigation-container w-full flex flex-wrap flex-col content-center justify-center gap-y-6 md:w-1/2 lg:w-1/2'>
+        <div className='navigation-container w-full flex flex-wrap flex-col content-center items-center md:content-start md:items-start lg:content-start lg:items-start gap-y-4 md:w-1/2 lg:w-1/2'>
             <h1 className='about-title text-[#FFE9D7] font-medium text-3xl lg:text-4xl text-center'>Navigation</h1>
-            {/* <a href="#home">Home</a>
-            <a href="#about-wehack">About</a>
-            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a> */}
-            <Button link={'#home'} buttonText={'Home'}/>
-            <Button link={'#about-wehack'} buttonText={'About'}/>
-            <Button link={'https://static.mlh.io/docs/mlh-code-of-conduct.pdf'} buttonText={'MLH Conduct'}/>
+            <a className='nav-link' href="#home">Home</a>
+            <a className='nav-link' href="#about-wehack">About</a>
+            <a className='nav-link' href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a>
         </div>
         <div className='contact-us-container w-full flex flex-wrap flex-col content-center justify-center gap-y-6 md:w-1/2 lg:w-1/2'>
             <h1 className='about-title text-[#FFE9D7] font-medium text-3xl lg:text-4xl text-left'>Contact Us</h1>
