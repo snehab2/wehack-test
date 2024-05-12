@@ -11,22 +11,22 @@ function Footer() {
         </div>
         <div className='navigation-container w-full flex flex-wrap flex-col content-center items-center md:content-start md:items-start lg:content-start lg:items-start gap-y-4 md:w-1/2 lg:w-1/2'>
             <h1 className='about-title text-[#FFE9D7] font-medium text-3xl lg:text-4xl text-center'>Navigation</h1>
-            <a className='nav-link' href="#home">Home</a>
-            <a className='nav-link' href="#about-wehack">About</a>
-            <a className='nav-link' href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a>
+            <a className='nav-link font-bold' href="#home">Home</a>
+            <a className='nav-link font-bold' href="#about-wehack">About</a>
+            <a className='nav-link font-bold' href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Conduct</a>
         </div>
-        <div className='contact-us-container w-full flex flex-wrap flex-col content-center justify-center gap-y-6 md:w-1/2 lg:w-1/2'>
+        <div className='contact-us-container w-full flex flex-wrap flex-col content-center items-center md:content-start md:items-start lg:content-start lg:items-start gap-y-4 md:w-1/2 lg:w-1/2'>
             <h1 className='about-title text-[#FFE9D7] font-medium text-3xl lg:text-4xl text-left'>Contact Us</h1>
-            {/* <a href="mailto:wehackutd@gmail.com" target="_blank">Email</a>
-            <a href="https://www.instagram.com/wehackutd/" target="_blank">Instagram</a>
-            <a href="https://www.linkedin.com/company/wehackutd-2020/"target="_blank">LinkedIn</a>
-            <a href="https://www.facebook.com/WEHackUTD/" target="_blank">Facebook</a>
-            <a href="https://x.com/wehackutd" target="_blank">X</a> */}
-            <Button link={'mailto:wehackutd@gmail.com'} buttonText={'Email'}/>
+            <a className='nav-link font-bold' href="mailto:wehackutd@gmail.com" target="_blank">Email</a>
+            <a className='nav-link font-bold' href="https://www.instagram.com/wehackutd/" target="_blank">Instagram</a>
+            <a className='nav-link font-bold' href="https://www.linkedin.com/company/wehackutd-2020/"target="_blank">LinkedIn</a>
+            <a className='nav-link font-bold' href="https://www.facebook.com/WEHackUTD/" target="_blank">Facebook</a>
+            <a className='nav-link font-bold' href="https://x.com/wehackutd" target="_blank">X</a>
+            {/* <Button link={'mailto:wehackutd@gmail.com'} buttonText={'Email'}/>
             <Button link={'https://www.instagram.com/wehackutd/'} buttonText={'Instagram'}/>
             <Button link={'https://www.linkedin.com/company/wehackutd-2020/'} buttonText={'LinkedIn'}/>
             <Button link={'https://www.facebook.com/WEHackUTD/'} buttonText={'Facebook'}/>
-            <Button link={'https://x.com/wehackutd'} buttonText={'X'}/>
+            <Button link={'https://x.com/wehackutd'} buttonText={'X'}/> */}
         </div>
     </div>
   )
