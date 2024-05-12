@@ -11,7 +11,7 @@ function FAQ() {
             <div className='column-right w-full lg:w-1/2'>
                 <div className='questions-container flex flex-wrap items-center justify-center gap-5'>
                     {dataColOne.map((FAQ, index) => (
-                        <div className='w-full' key={index}>
+                        <div className='flex flex-wrap items-center justify-center w-full' key={index}>
                             <Question question={FAQ.question} answer={FAQ.answer}/>
                         </div>
                     ))}
@@ -21,7 +21,7 @@ function FAQ() {
             <div className='column-left w-full lg:w-1/2'>
                 <div className='questions-container flex flex-wrap items-center justify-center gap-5'>
                     {dataColTwo.map((FAQ, index) => (
-                        <div className='w-full' key={index}>
+                        <div className='flex flex-wrap items-center justify-center w-full' key={index}>
                             <Question question={FAQ.question} answer={FAQ.answer}/>
                         </div>                    
                     ))}
