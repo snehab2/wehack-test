@@ -1,5 +1,5 @@
 nav {
-    position:fixed;
+    position:absolute;
     display: flex;
     flex-wrap:wrap;
     align-items: center;
@@ -7,7 +7,7 @@ nav {
     padding: 1.5rem 2rem 1rem 2rem;
     z-index:2;
     background-color:transparent;
-    backdrop-filter: blur(1rem);
+    /* backdrop-filter: blur(1rem); */
     top:0;
     width:100%;
 }
@@ -70,7 +70,7 @@ input[type=checkbox] {
 
 @media (max-width: 910px) {
     nav {
-        backdrop-filter: blur(0rem);
+        position:fixed;
     }
     .mlh-trust-badge {
         width: 11vw;
@@ -113,7 +113,7 @@ input[type=checkbox] {
 
 @media (max-width: 750px) {
     nav {
-        backdrop-filter: blur(0rem);
+        position:fixed;
     }
     .mlh-trust-badge {
         width: 16vw;
@@ -157,7 +157,7 @@ input[type=checkbox] {
 
 @media (max-width: 580px) {
     nav {
-        backdrop-filter: blur(0rem);
+        position:fixed;
     }
     .mlh-trust-badge {
         width:15vw;
