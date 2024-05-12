@@ -16,6 +16,7 @@ function Nav() {
 
         <ul className="collapse-menu">
           <li><a href="#about-wehack">About</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
           <li><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Conduct</a></li>
         </ul>
 
