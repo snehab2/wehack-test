@@ -8,6 +8,7 @@ html {
 }
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .parent-container {    
@@ -84,7 +85,7 @@ p {
     .parent-container {
         flex-direction: row; /* changed here */
         /* padding: top, right, bottom, left */
-        padding: 10rem 2.5rem 15rem 2.5rem;
+        padding: 10rem 2.5rem 12rem 2.5rem;
     }
     .child-container {
         width:50%;
