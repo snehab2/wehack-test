@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Stats from '@/app/components/Stats/Stats'
+
 function About() {
   return (
     <section className='parent-container about-section bg-[#755642]' id="about-wehack">
