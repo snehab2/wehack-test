@@ -4,8 +4,8 @@ function Question({question, answer} : {question : String, answer : String}) {
   return (
     <div className="question w-full lg:w-10/12">
         <details>
-            <summary className='flex justify-between list-none w-full bg-[#FFE9D7] text-[#4A3628] p-2'>{question}</summary>
-                <div className="panel">
+            <summary className='flex flex-wrap justify-between list-none w-full bg-[#FFE9D7] text-[#4A3628] p-2 text-xs md:text-base lg:text-base'>{question}</summary>
+                <div className="panel text-sm">
                     {answer}
                 </div>
         </details>
