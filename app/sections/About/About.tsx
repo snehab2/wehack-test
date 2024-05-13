@@ -10,7 +10,7 @@ function About() {
         <div className='child-container'>
             <div className='paragraph-1 flex flex-wrap flex-col gap-y-5'>
                 <h1 className='about-title text-[#FFE9D7] font-medium text-4xl lg:text-5xl text-left'>Dallas' Largest Inclusive Hackathon</h1>
-                <p className='about-text text-[#FFE9D7] font-medium text-lg lg:text-xl text-left'>UTD's women-driven tech organizations are excited to join forces and present our 24-hour hackathon uniting women and non-binary students. Our goal is to create an inclusive environment that highlights and empowers women, femme, and non-binary students through technology.</p>
+                <p className='about-text text-[#FFE9D7] font-medium text-lg lg:text-xl text-left'>The purpose of WEHack is to create an inclusive and encouraging environment for women, nonbinary genders, and all underrepresented groups in technology so that they can gain the skills and confidence to excel in future hackathons and the tech world.</p>
             </div>
         </div>
         <div className='child-container'>
